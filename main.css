@@ -281,15 +281,15 @@ nav .page-title a.active {
 
 .splash-card {
   width: 100%;
-  max-width: 460px;
+  max-width: 540px;
   margin: 0 auto;
   text-align: center;
 }
 
 .splash-logo-wrap {
-  margin: 0 auto 28px;
-  width: 48%;
-  max-width: 165px;
+  margin: 0 auto 30px;
+  width: 50%;
+  max-width: 185px;
 }
 
 .splash-logo-wrap img {
@@ -300,43 +300,43 @@ nav .page-title a.active {
 }
 
 .splash-heading-group {
-  margin-bottom: 26px;
+  margin-bottom: 28px;
 }
 
 .splash-title {
-  margin: 0 0 12px;
-  font-weight: 600;
+  margin: 0 0 14px;
+  font-weight: 700;
 }
 
 .splash-title-en {
   display: block;
   font-family: "Helvetica Neue", -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 24px;
-  font-weight: 600;
+  font-size: 28px;
+  font-weight: 700;
   line-height: 1.35;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.05em;
   color: #012B55;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .splash-title-zh {
   display: block;
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 24px;
+  font-weight: 600;
   line-height: 1.4;
-  letter-spacing: 0.22em;
-  padding-left: 0.22em; /* optical centering for letter-spacing */
+  letter-spacing: 0.2em;
+  padding-left: 0.2em; /* optical centering for letter-spacing */
   color: #546E87;
 }
 
 .splash-cert {
   margin: 0;
-  font-size: 12px;
-  font-weight: 400;
+  font-size: 13.5px;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: #8896a4;
+  color: #7b8a99;
 }
 
 .splash-divider {
@@ -883,15 +883,15 @@ nav .page-title a.active {
 /* Primary Minimalist Button (Index & Frame Pages) */
 .button-module--primary {
   border-radius: 6px;
-  font-size: 14.5px;
-  font-weight: 500;
-  height: 38px;
-  line-height: 36px;
+  font-size: 16px;
+  font-weight: 600;
+  height: 42px;
+  line-height: 40px;
   color: #012B55;
   background-color: #eef2f7;
   border: 1px solid #c2cfde;
-  padding: 0 20px;
-  width: 196px;
+  padding: 0 22px;
+  width: 215px;
   letter-spacing: 0.04em;
   transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
@@ -903,19 +903,19 @@ nav .page-title a.active {
 }
 
 .button-module--primary .btn-zh {
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 0.06em;
 }
 
 .button-module--primary .btn-en {
-  font-weight: 400;
-  font-size: 0.92em;
-  opacity: 0.78;
+  font-weight: 700;
+  font-size: 0.96em;
+  opacity: 1;
   letter-spacing: 0.03em;
 }
 
 .button-module--primary:hover .btn-en {
-  opacity: 0.92;
+  opacity: 1;
 }
 
 /* Calculation Button (Price Page) */
@@ -1177,18 +1177,18 @@ nav .page-title a.active {
   }
 
   .splash-title-en {
-    font-size: 22px;
+    font-size: 25px;
   }
 
   .splash-title-zh {
-    font-size: 18.5px;
+    font-size: 22px;
   }
 
   .button-module--primary {
-    font-size: 14px;
-    height: 37px;
-    line-height: 35px;
-    width: 190px;
+    font-size: 15.5px;
+    height: 40px;
+    line-height: 38px;
+    width: 210px;
   }
 
   .button-module--calc {
@@ -1284,21 +1284,21 @@ nav .page-title a.active {
   }
 
   .splash-logo-wrap {
-    max-width: 145px;
+    max-width: 160px;
     margin-bottom: 24px;
   }
 
   .splash-title-en {
-    font-size: 20px;
-    margin-bottom: 6px;
+    font-size: 23px;
+    margin-bottom: 8px;
   }
 
   .splash-title-zh {
-    font-size: 17px;
+    font-size: 20px;
   }
 
   .splash-cert {
-    font-size: 11px;
+    font-size: 12px;
   }
 
   .splash-divider {
@@ -1306,14 +1306,14 @@ nav .page-title a.active {
   }
 
   .splash-nav {
-    gap: 11px;
+    gap: 13px;
   }
 
   .button-module--primary {
-    font-size: 14px;
-    height: 36px;
-    line-height: 34px;
-    width: 186px;
+    font-size: 15px;
+    height: 40px;
+    line-height: 38px;
+    width: 205px;
   }
 
   .button-module--calc {
