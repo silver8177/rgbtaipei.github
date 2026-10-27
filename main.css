@@ -9,7 +9,7 @@
 }
 
 html {
-  font-family: tahoma, -apple-system, BlinkMacSystemFont, "PingFang TC", "Microsoft JhengHei", sans-serif;
+  font-family: "Helvetica Neue", -apple-system, BlinkMacSystemFont, "PingFang TC", "Noto Sans TC", "Heiti TC", "Microsoft JhengHei", sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -150,7 +150,7 @@ nav .page-title:last-child {
 
 nav .page-title a {
   color: #282828;
-  font-family: tahoma, sans-serif;
+  font-family: inherit;
   font-size: 18px;
   font-weight: 400;
   line-height: 24px;
@@ -174,7 +174,7 @@ nav .page-title a.active {
 }
 
 .logo {
-  font-family: tahoma, sans-serif;
+  font-family: inherit;
   font-size: 22px;
   font-weight: 700;
   line-height: 30px;
@@ -271,92 +271,86 @@ nav .page-title a.active {
 
 .splash {
   display: flex;
-  margin: 0 auto;
-  min-height: 100vh;
-  padding: 20px;
-  position: relative;
-  width: 100%;
-  align-items: flex-start;
-  justify-content: center;
-}
-
-.splash img {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-}
-
-.centered .outer-wrap {
   align-items: center;
-  display: flex;
   justify-content: center;
-  margin-top: 50px;
-  max-width: 2000px;
-  min-height: calc(100vh - 100px);
-  padding-bottom: 50px;
+  min-height: 100vh;
+  min-height: 100dvh;
+  padding: 40px 24px;
   width: 100%;
 }
 
-.centered-content-wrap {
-  padding: 0 20px;
-  position: relative;
+.splash-card {
   width: 100%;
+  max-width: 460px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .splash-logo-wrap {
-  margin: 0 auto;
-  padding-top: 10px;
-  padding-bottom: 15px;
-  width: 50%;
-  max-width: 180px;
+  margin: 0 auto 28px;
+  width: 48%;
+  max-width: 165px;
 }
 
-.splash-modules .text {
-  margin: 0 auto;
-  max-width: 800px;
-  width: 100%;
-}
-
-.splash-modules .rich-text .title {
-  color: #546E87;
-  font-family: tahoma, sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 24px;
-  padding-bottom: 5px;
-  padding-top: 0;
-  text-align: center;
-}
-
-.splash-modules .rich-text .main-text {
-  color: #546E87;
-  font-family: tahoma, sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 28px;
-  padding-bottom: 10px;
-  padding-top: 5px;
-  text-align: center;
-}
-
-.splash-modules .button {
+.splash-logo-wrap img {
+  display: block;
   margin: 0 auto;
   max-width: 100%;
+  height: auto;
 }
 
-.splash-btn-price {
-  padding-top: 20px;
-  padding-bottom: 12px;
+.splash-heading-group {
+  margin-bottom: 26px;
 }
 
-.splash-btn-frame {
-  padding-top: 12px;
-  padding-bottom: 12px;
+.splash-title {
+  margin: 0 0 12px;
+  font-weight: 600;
 }
 
-.splash-btn-contact {
-  padding-top: 12px;
-  padding-bottom: 20px;
+.splash-title-en {
+  display: block;
+  font-family: "Helvetica Neue", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: 0.06em;
+  color: #012B55;
+  margin-bottom: 8px;
+}
+
+.splash-title-zh {
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.22em;
+  padding-left: 0.22em; /* optical centering for letter-spacing */
+  color: #546E87;
+}
+
+.splash-cert {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #8896a4;
+}
+
+.splash-divider {
+  border: 0;
+  border-top: 1px solid #eaeef2;
+  width: 120px;
+  margin: 0 auto 28px;
+}
+
+.splash-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
 }
 
 /* ==========================================================================
@@ -377,7 +371,7 @@ nav .page-title a.active {
 
 .page-header .title {
   color: #111111;
-  font-family: tahoma, sans-serif;
+  font-family: inherit;
   font-size: 28px;
   font-weight: 700;
   line-height: 50px;
@@ -413,7 +407,7 @@ nav .page-title a.active {
 
 .standard-modules .rich-text .sub-title {
   color: #012B55;
-  font-family: tahoma, sans-serif;
+  font-family: inherit;
   font-size: 25px;
   font-weight: 700;
   line-height: 30px;
@@ -433,7 +427,7 @@ nav .page-title a.active {
 .standard-modules .rich-text div,
 .standard-modules .rich-text p {
   color: #012B55;
-  font-family: tahoma, sans-serif;
+  font-family: inherit;
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
@@ -766,7 +760,7 @@ nav .page-title a.active {
   display: inline-flex;
   align-items: center;
   gap: 4px;
-  font-family: tahoma, sans-serif;
+  font-family: inherit;
   font-size: 12.5px;
   font-weight: 400;
   color: #546E87;
@@ -809,30 +803,31 @@ nav .page-title a.active {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
-  background-color: #ffffff;
+  gap: 7px;
+  background-color: #eef2f7;
   color: #012B55;
-  border: 1.5px solid #012B55;
-  font-family: tahoma, sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-  height: 46px;
-  padding: 0 24px;
-  min-width: 230px;
-  border-radius: 12px;
-  transition: background-color 0.2s ease, color 0.2s ease, transform 0.15s ease;
+  border: 1px solid #c2cfde;
+  font-family: inherit;
+  font-size: 14.5px;
+  font-weight: 500;
+  height: 38px;
+  padding: 0 20px;
+  min-width: 196px;
+  border-radius: 6px;
+  letter-spacing: 0.03em;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 
 .map-button:hover {
   background-color: #012B55;
+  border-color: #012B55;
   color: #ffffff;
-  transform: translateY(-1px);
 }
 
 .map-button__icon {
   fill: currentColor;
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
   flex-shrink: 0;
 }
 
@@ -874,49 +869,75 @@ nav .page-title a.active {
   justify-content: center;
   cursor: pointer;
   display: inline-flex;
+  gap: 8px;
   margin: 0 auto;
   max-width: 100%;
   overflow: hidden;
   white-space: nowrap;
-  font-family: tahoma, sans-serif;
-  font-weight: 700;
+  font-family: inherit;
+  font-weight: 600;
   color: #ffffff;
   border: none;
 }
 
-/* Primary Navy Button (Index Page) */
+/* Primary Minimalist Button (Index & Frame Pages) */
 .button-module--primary {
-  border-radius: 15px;
-  font-size: 20px;
-  line-height: 40px;
-  background-color: rgba(2, 42, 85, 0.9);
-  padding: 0 30px;
-  min-width: 215px;
+  border-radius: 6px;
+  font-size: 14.5px;
+  font-weight: 500;
+  height: 38px;
+  line-height: 36px;
+  color: #012B55;
+  background-color: #eef2f7;
+  border: 1px solid #c2cfde;
+  padding: 0 20px;
+  width: 196px;
+  letter-spacing: 0.04em;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 
 .button-module--primary:hover {
   color: #ffffff;
-  background-color: rgba(2, 42, 85, 0.6);
+  background-color: #012B55;
+  border-color: #012B55;
 }
 
-/* Calculation Red Button (Price Page) */
+.button-module--primary .btn-zh {
+  font-weight: 500;
+  letter-spacing: 0.06em;
+}
+
+.button-module--primary .btn-en {
+  font-weight: 400;
+  font-size: 0.92em;
+  opacity: 0.78;
+  letter-spacing: 0.03em;
+}
+
+.button-module--primary:hover .btn-en {
+  opacity: 0.92;
+}
+
+/* Calculation Button (Price Page) */
 .button-module--calc {
-  border-radius: 12px;
-  font-size: 16.5px;
-  height: 46px;
-  line-height: 46px;
-  background-color: #a71717;
-  padding: 0 24px;
-  min-width: 230px;
-  box-shadow: 0 2px 8px rgba(167, 23, 23, 0.18);
-  transition: background-color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+  border-radius: 6px;
+  font-size: 14.5px;
+  font-weight: 500;
+  height: 38px;
+  line-height: 36px;
+  color: #9e1b1b;
+  background-color: #fbf0f0;
+  border: 1px solid #dfb8b8;
+  padding: 0 20px;
+  min-width: 196px;
+  letter-spacing: 0.03em;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 
 .button-module--calc:hover {
   color: #ffffff;
-  background-color: rgba(167, 23, 23, 0.78);
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(167, 23, 23, 0.24);
+  background-color: #a71717;
+  border-color: #a71717;
 }
 
 /* Social Icons / Instagram Button (Contact Page) */
@@ -928,35 +949,31 @@ nav .page-title a.active {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 10px;
-  background-color: rgba(2, 42, 85, 0.92);
-  color: #ffffff;
-  font-family: tahoma, sans-serif;
-  font-size: 16.5px;
-  font-weight: 700;
-  height: 46px;
-  padding: 0 24px;
-  min-width: 230px;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(2, 42, 85, 0.16);
-  transition: background-color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+  gap: 8px;
+  background-color: #eef2f7;
+  color: #012B55;
+  border: 1px solid #c2cfde;
+  font-family: inherit;
+  font-size: 14.5px;
+  font-weight: 500;
+  height: 38px;
+  padding: 0 20px;
+  min-width: 196px;
+  border-radius: 6px;
+  letter-spacing: 0.02em;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 
 .ig-button:hover {
-  background-color: rgba(2, 42, 85, 0.72);
+  background-color: #012B55;
+  border-color: #012B55;
   color: #ffffff;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(2, 42, 85, 0.22);
-}
-
-.ig-button:active {
-  transform: translateY(0);
 }
 
 .ig-button__icon {
-  fill: #ffffff;
-  height: 24px;
-  width: 24px;
+  fill: currentColor;
+  height: 18px;
+  width: 18px;
   flex-shrink: 0;
 }
 
@@ -971,7 +988,7 @@ nav .page-title a.active {
 .site-footer {
   clear: both;
   display: block;
-  font-family: tahoma, sans-serif;
+  font-family: inherit;
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
@@ -1159,23 +1176,26 @@ nav .page-title a.active {
     padding-bottom: 14px;
   }
 
-  .splash-modules .rich-text .main-text {
-    font-size: 20px;
-    line-height: 26px;
+  .splash-title-en {
+    font-size: 22px;
+  }
+
+  .splash-title-zh {
+    font-size: 18.5px;
   }
 
   .button-module--primary {
-    font-size: 16px;
-    height: 38px;
-    line-height: 38px;
-    min-width: 180px;
+    font-size: 14px;
+    height: 37px;
+    line-height: 35px;
+    width: 190px;
   }
 
   .button-module--calc {
-    font-size: 16px;
-    height: 46px;
-    line-height: 46px;
-    min-width: 230px;
+    font-size: 14px;
+    height: 37px;
+    line-height: 35px;
+    min-width: 190px;
   }
 
   .standard-modules .text {
@@ -1218,9 +1238,9 @@ nav .page-title a.active {
   }
 
   .ig-button {
-    font-size: 16px;
-    height: 46px;
-    padding: 0 22px;
+    font-size: 14px;
+    height: 37px;
+    padding: 0 18px;
   }
 
   .site-footer {
@@ -1263,23 +1283,44 @@ nav .page-title a.active {
     padding-bottom: 13px;
   }
 
-  .splash-modules .rich-text .main-text {
-    font-size: 18px;
-    line-height: 24px;
+  .splash-logo-wrap {
+    max-width: 145px;
+    margin-bottom: 24px;
+  }
+
+  .splash-title-en {
+    font-size: 20px;
+    margin-bottom: 6px;
+  }
+
+  .splash-title-zh {
+    font-size: 17px;
+  }
+
+  .splash-cert {
+    font-size: 11px;
+  }
+
+  .splash-divider {
+    margin-bottom: 24px;
+  }
+
+  .splash-nav {
+    gap: 11px;
   }
 
   .button-module--primary {
-    font-size: 15px;
+    font-size: 14px;
     height: 36px;
-    line-height: 36px;
-    min-width: 170px;
+    line-height: 34px;
+    width: 186px;
   }
 
   .button-module--calc {
-    font-size: 15.5px;
-    height: 44px;
-    line-height: 44px;
-    min-width: 220px;
+    font-size: 14px;
+    height: 36px;
+    line-height: 34px;
+    min-width: 186px;
   }
 
   .price-note-text {
@@ -1369,10 +1410,10 @@ nav .page-title a.active {
 
   .ig-button,
   .map-button {
-    font-size: 15.5px;
-    height: 44px;
-    padding: 0 20px;
-    min-width: 220px;
+    font-size: 14px;
+    height: 36px;
+    padding: 0 18px;
+    min-width: 186px;
   }
 
   .frame-grid {
